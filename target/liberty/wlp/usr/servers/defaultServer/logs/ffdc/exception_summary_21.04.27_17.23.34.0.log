@@ -1,0 +1,8 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 27/04/2021 17:23:33:904 BRT 27/04/2021 17:23:33:904 BRT org.apache.cxf.interceptor.Fault com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.27_17.23.33.0.log
+     1      1 27/04/2021 17:24:29:258 BRT 27/04/2021 17:24:29:258 BRT java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.27_17.24.29.0.log
+------+------+---------------------------+---------------------------+---------------------------

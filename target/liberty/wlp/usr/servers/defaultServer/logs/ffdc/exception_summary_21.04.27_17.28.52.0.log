@@ -1,0 +1,6 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1 27/04/2021 17:28:52:776 BRT 27/04/2021 17:28:52:776 BRT java.lang.NoClassDefFoundError com.ibm.ws.injectionengine.InjectionProcessorManager.getAllDeclaredFields 249
+                                                                            - /home/vencedor/eclipse-oxygen-workspace/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/ffdc/ffdc_21.04.27_17.28.52.0.log
+------+------+---------------------------+---------------------------+---------------------------

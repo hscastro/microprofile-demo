@@ -1,0 +1,59 @@
+********************************************************************************
+product = Open Liberty 21.0.0.4 (wlp-1.0.51.cl210420210407-0944)
+wlp.install.dir = /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/
+java.home = /usr/lib/jvm/zulu11-ca-amd64
+java.version = 11.0.10
+java.runtime = OpenJDK Runtime Environment (11.0.10+9-LTS)
+os = Linux (5.8.0-44-generic; amd64) (pt_BR)
+process = 4762@vencedor-desktop
+********************************************************************************
+[27/04/2021 21:26:36:727 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: O servidor defaultServer foi ativado.
+[27/04/2021 21:26:41:674 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/configDropins/defaults/install_apps_configuration_1491924271.xml
+[27/04/2021 21:26:41:737 BRT] 00000017 com.ibm.ws.config.xml.internal.ServerXMLConfiguration        A CWWKG0093A: Processamento do recurso de drop-ins da configuração: /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/configDropins/overrides/liberty-plugin-variable-config.xml
+[27/04/2021 21:26:42:412 BRT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: O kernel foi iniciado após 6,081 segundos
+[27/04/2021 21:26:42:487 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Atualização do recurso iniciada.
+[27/04/2021 21:26:45:566 BRT] 00000016 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[27/04/2021 21:26:45:568 BRT] 00000017 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Aries Blueprint packages not available. So namespaces will not be registered
+[27/04/2021 21:26:46:137 BRT] 00000017 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitorando dropins para aplicativos.
+[27/04/2021 21:26:48:164 BRT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      W CWWKZ0014W: O aplicativo guide-rest-intro não pôde ser iniciado pois ele não poderá ser localizado no local guide-rest-intro.war.
+[27/04/2021 21:26:48:230 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo microprofile-demo.
+[27/04/2021 21:26:48:231 BRT] 00000021 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo microprofile-demo está usando a definição de aplicativo indefinido no local /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/apps/microprofile-demo.war.xml.
+[27/04/2021 21:26:49:058 BRT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN8501I: O gerenciador de sessões não localizou um local de armazenamento persistente; objetos HttpSession serão armazenados na memória do servidor de aplicativos local.
+[27/04/2021 21:26:49:175 BRT] 00000021 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[27/04/2021 21:26:50:414 BRT] 00000021 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: microprofile-demo.
+[27/04/2021 21:26:50:440 BRT] 00000021 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web microprofile-demo foi ligado ao default_host.
+[27/04/2021 21:26:50:442 BRT] 00000021 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.179:9080/microprofile-demo/
+[27/04/2021 21:26:50:593 BRT] 00000022 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/microprofile-demo
+[27/04/2021 21:26:50:637 BRT] 00000022 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/04/2021 21:26:50:801 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: O aplicativo microprofile-demo foi iniciado em 2,571 segundos.
+[27/04/2021 21:26:50:841 BRT] 0000001f com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: O Canal TCP defaultHttpEndpoint foi iniciado e agora está atendendo solicitações no host *  (IPv6) porta 9080.
+[27/04/2021 21:26:50:908 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: O servidor instalou os recursos a seguir: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.4, mpRestClient-1.4, servlet-4.0].
+[27/04/2021 21:26:50:912 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Atualização do recurso concluída em 8,499 segundos.
+[27/04/2021 21:26:50:913 BRT] 0000001f com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: O servidor defaultServer está pronto para gerenciar um planeta mais inteligente. O servidor defaultServer foi iniciado em 14,588 segundos.
+[27/04/2021 21:26:51:292 BRT] 00000020 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/04/2021 21:26:53:892 BRT] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.179:9080/microprofile-demo/
+[27/04/2021 21:26:53:961 BRT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo microprofile-demo foi interrompido com sucesso.
+[27/04/2021 21:26:53:989 BRT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo microprofile-demo.
+[27/04/2021 21:26:53:989 BRT] 00000020 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo microprofile-demo está usando a definição de aplicativo indefinido no local /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/apps/microprofile-demo.war.xml.
+[27/04/2021 21:26:54:058 BRT] 0000001f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/04/2021 21:26:54:385 BRT] 00000020 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: microprofile-demo.
+[27/04/2021 21:26:54:385 BRT] 00000020 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web microprofile-demo foi ligado ao default_host.
+[27/04/2021 21:26:54:385 BRT] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.179:9080/microprofile-demo/
+[27/04/2021 21:26:54:398 BRT] 00000021 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/microprofile-demo
+[27/04/2021 21:26:54:408 BRT] 00000021 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/04/2021 21:26:54:417 BRT] 00000021 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo microprofile-demo foi atualizado em 0,428 segundos.
+[27/04/2021 21:26:54:473 BRT] 0000001f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/04/2021 21:27:09:456 BRT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicativo da Web removido (default_host): http://192.168.40.179:9080/microprofile-demo/
+[27/04/2021 21:27:09:505 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: O aplicativo microprofile-demo foi interrompido com sucesso.
+[27/04/2021 21:27:09:509 BRT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando o aplicativo microprofile-demo.
+[27/04/2021 21:27:09:519 BRT] 00000022 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: O aplicativo microprofile-demo está usando a definição de aplicativo indefinido no local /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/apps/microprofile-demo.war.xml.
+[27/04/2021 21:27:09:578 BRT] 0000001f com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/04/2021 21:27:10:068 BRT] 00000022 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Carregando o Módulo da Web: microprofile-demo.
+[27/04/2021 21:27:10:068 BRT] 00000022 com.ibm.ws.webcontainer                                      I SRVE0250I: O Módulo da Web microprofile-demo foi ligado ao default_host.
+[27/04/2021 21:27:10:068 BRT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicativo da Web disponível (default_host): http://192.168.40.179:9080/microprofile-demo/
+[27/04/2021 21:27:10:076 BRT] 00000020 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Um novo contexto de sessão será criado para a chave do aplicativo default_host/microprofile-demo
+[27/04/2021 21:27:10:077 BRT] 00000020 com.ibm.ws.util                                              I SESN0172I: O gerenciador de sessões está usando a implementação SecureRandom padrão Java para geração do ID de sessão.
+[27/04/2021 21:27:10:080 BRT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: O aplicativo microprofile-demo foi atualizado em 0,571 segundos.
+[27/04/2021 21:27:10:174 BRT] 00000022 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Um arquivo de configuração para um plug-in de servidor da web foi automaticamente gerado para este servidor em /home/vencedor/eclipse-oxygen-workspace/microprofiles/microprofile-demo/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[27/04/2021 21:27:31:704 BRT] 00000021 .apache.cxf.cxf.core.3.2:1.0.51.cl210420210407-0944(id=137)] I Setting the server's publish address to be /
+[27/04/2021 21:27:31:879 BRT] 00000021 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [microprofile-demo] [/microprofile-demo] [com.hscastro.DemoApplication]: Inicialização bem sucedida.
